@@ -18,34 +18,25 @@ Este repositório contém um sistema simples de mercado, desenvolvido em Java, c
 * Estrutura orientada a objetos, facilitando manutenção e extensões futuras
 
 #🗂 Estrutura do Projeto
-css
-Copiar
-Editar
+
 /src
-  ├── Main.java
+  - ├── Carrinho.java
+  - ├── ListProduto.java
+  - ├── Main.java
+  - ├── Modelo.java
+  - ├── Utils.java
   
-  ├── Produto.java
-  ├── Cliente.java
-  ├── Mercado.java
-  └── Utils.java
-Main.java → Classe principal, responsável por iniciar o sistema
-
-Produto.java → Classe que representa os produtos do mercado
-
-Cliente.java → Classe para cadastro de clientes, podendo herdar atributos ou métodos comuns
-
-Mercado.java → Lógica do sistema (cadastro, listagem, compras)
-
-Utils.java → Métodos auxiliares para facilitar operações (como validação de dados, mensagens etc.)
+* Carrinho.java → Classe responsavel porque organizar as informação de compra(Junta todos os itens escolhidos enquanto o sistema rodas)
+* ListProduto.java → Classe que representa os produtos do mercado e os adicionaos diretamente ao array do carrinho
+* Main.java → Classe principal, inicia o programa
+* Modelo.java → Organiza as informações dos itens produtos
+* Utils.java → Método auxiliar para formatar o valor dos itens para a moeda real
 
 #🚀 Como Executar
-Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Abra o projeto em sua IDE Java favorita (Eclipse, IntelliJ, VS Code etc.)
-
-Execute a classe Main.java
-
-Pré-requisitos: JDK 17 ou superior (ou ajuste para a versão utilizada no seu projeto)
+- `Clone o repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+- Abra o projeto em sua IDE Java favorita (Eclipse, IntelliJ, VS Code etc.)
+- Execute a classe Main.java
+- Pré-requisitos: JDK 17 ou superior (ou ajuste para a versão utilizada no seu projeto)
 
 # 🎯 Objetivo
 Este projeto foi criado como exercício para fixação de conceitos básicos e intermediários de Java, especialmente o uso do JOptionPane para interfaces visuais simples, além de boas práticas como organização do código em múltiplas classes e arquivos.
