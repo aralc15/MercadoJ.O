@@ -33,7 +33,7 @@ Este repositório contém um sistema simples de mercado, desenvolvido em Java, c
 * Utils.java → Método auxiliar para formatar o valor dos itens para a moeda real
 
 # 🚀 Como Executar
-- `Clone o repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+- `Clone o repositório: git clone https://github.com/aralc15/MercadoJ.O.git`
 - Abra o projeto em sua IDE Java favorita (Eclipse, IntelliJ, VS Code etc.)
 - Execute a classe Main.java
 - Pré-requisitos: JDK 17 ou superior (ou ajuste para a versão utilizada no seu projeto)
